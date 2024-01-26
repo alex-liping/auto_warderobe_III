@@ -37,7 +37,7 @@ basic.forever(function () {
             }
             strip.showColor(neopixel.colors(NeoPixelColors.Black))
             zavreno = true
-            basic.pause(501)
+            basic.pause(502)
         }
     }
 })
