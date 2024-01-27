@@ -6,7 +6,6 @@ pins.servoWritePin(AnalogPin.P7, 180)
 let zavreno = true
 strip.showColor(neopixel.colors(NeoPixelColors.Black))
 basic.pause(1000)
-basic.showNumber(0)
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P2) == 0) {
         if (zavreno == true) {
